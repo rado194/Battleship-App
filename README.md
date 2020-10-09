@@ -12,7 +12,7 @@
 * Future improvements: If I could improve the game in future times, I would add sound effects when a ship is sinked or an animation on the grid that displays a sinking ship. I would probably also add a level system where the harder the level, the larger the game with a bigger number of ships to target.
 
 
-                        ========================== Project plan deliverables =======================
+                    ========================= Project plan deliverables =======================
                                     
 * Scope: 
 01 - What are you aiming to build? - browser based battleship game
