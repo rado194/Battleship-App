@@ -1,4 +1,4 @@
-                                        ========================= BATTLESHIP APP =========================
+                             ========================= BATTLESHIP APP =========================
             
 * Initial project planning: While learning web development in self isolation, I discovered the Battleship game to be a very good learning experience that has different functionalities and logic that can make me understand algorithms even better. I then decided to try and re-create the game myself.
 
