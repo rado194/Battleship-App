@@ -141,13 +141,20 @@ function parseGuess (guess) {
 }
 
 function init() {
+    //Handle hide screens
+    var startButton = document.getElementById("startButton");
+    startButton.onclick = handleSelectStart;
+    var board = document.getElementById('boardConatiner');
+
+    
     var fireButton = document.getElementById("fireButton");
     fireButton.onclick = handleFireButton;
     var guessInput = document.getElementById("guessInput");
     guessInput.onkeypress = handleKeyPress;
 
-
     model.generateShipLocations();
+    
+
 }
 window.onload = init;
 
@@ -165,4 +172,11 @@ function handleFireButton() {
     var guess = guessInput.value;
     controller.processGuess(guess);
     guessInput.value = "";
+}
+
+//You chose start and start game
+function handleSelectStart() {
+
+     document.getElementById("startScreen").className = "d-none";
+     document.getElementById("boardConatiner").className = "";
 }

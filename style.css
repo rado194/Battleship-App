@@ -10,6 +10,20 @@ body {
     background-color: rgba(14, 196, 105, 0.397);
 }
 
+div#mx-auto row {
+    font-size: 15px;
+}
+
+div#startScreen {
+    position: relative;
+    width: 1024px;
+    height: 900px;
+    margin: auto;
+    background: url('com.marmalade.battleship.jpg') no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
 div#board {
     position: relative;
     width: 1024px;
